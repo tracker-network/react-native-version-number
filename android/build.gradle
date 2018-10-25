@@ -19,14 +19,9 @@ android {
     }
 }
 
-buildscript {
-  repositories {
-    google()
-    jcenter()
-  }
-  dependencies {
-    classpath 'com.android.support:multidex:1.0.2'
-  }
+repositories {
+  google()
+  jcenter()
 }
 
 dependencies {
